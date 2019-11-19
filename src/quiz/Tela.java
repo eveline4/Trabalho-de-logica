@@ -4,6 +4,7 @@ import java.awt.Color;
 import javax.swing.JOptionPane;
 
 
+
 public class Tela extends javax.swing.JFrame {
 
     public Tela() {
@@ -44,11 +45,20 @@ public class Tela extends javax.swing.JFrame {
         jButton8 = new javax.swing.JButton();
         btnResposta = new javax.swing.JButton();
         jButton11 = new javax.swing.JButton();
+        jLabel6 = new javax.swing.JLabel();
+        jMenuBar1 = new javax.swing.JMenuBar();
+        jMenu2 = new javax.swing.JMenu();
+        jMenu3 = new javax.swing.JMenu();
+        errada3 = new javax.swing.JButton();
+        jLabel7 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
-        errada1 = new javax.swing.JButton();
-        correta = new javax.swing.JButton();
-        errada2 = new javax.swing.JButton();
+        btnElena = new javax.swing.JButton();
+        btnKatherine = new javax.swing.JButton();
+        btnBonnie = new javax.swing.JButton();
+        jLabel5 = new javax.swing.JLabel();
+        btnStefan = new javax.swing.JButton();
+        damon = new javax.swing.JLabel();
 
         jScrollPane1.setViewportView(jTree1);
 
@@ -143,68 +153,72 @@ public class Tela extends javax.swing.JFrame {
 
         jButton11.setText("jButton11");
 
+        jLabel6.setText("jLabel6");
+
+        jMenu2.setText("File");
+        jMenuBar1.add(jMenu2);
+
+        jMenu3.setText("Edit");
+        jMenuBar1.add(jMenu3);
+
+        errada3.setBackground(new java.awt.Color(204, 0, 204));
+        errada3.setText("Jeremy");
+        errada3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                errada3ActionPerformed(evt);
+            }
+        });
+
+        jLabel7.setText("1");
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 98, -1, -1));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(564, 0, -1, 218));
 
-        errada1.setBackground(new java.awt.Color(255, 0, 204));
-        errada1.setText("PROCESSADOR");
-        errada1.addActionListener(new java.awt.event.ActionListener() {
+        btnElena.setBackground(new java.awt.Color(255, 0, 255));
+        btnElena.setText("Elena");
+        btnElena.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                errada1ActionPerformed(evt);
+                btnElenaActionPerformed(evt);
             }
         });
+        getContentPane().add(btnElena, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 330, 170, 32));
 
-        correta.setBackground(new java.awt.Color(255, 0, 255));
-        correta.setText("PLACA-MÃE");
-        correta.addActionListener(new java.awt.event.ActionListener() {
+        btnKatherine.setBackground(new java.awt.Color(255, 0, 255));
+        btnKatherine.setText("Katherine");
+        btnKatherine.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                corretaActionPerformed(evt);
+                btnKatherineActionPerformed(evt);
             }
         });
+        getContentPane().add(btnKatherine, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, 170, 32));
 
-        errada2.setBackground(new java.awt.Color(255, 0, 204));
-        errada2.setText("PLACA DE VÍDEO");
-        errada2.addActionListener(new java.awt.event.ActionListener() {
+        btnBonnie.setBackground(new java.awt.Color(255, 0, 255));
+        btnBonnie.setText("Bonnie");
+        btnBonnie.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                errada2ActionPerformed(evt);
+                btnBonnieActionPerformed(evt);
             }
         });
+        getContentPane().add(btnBonnie, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 410, 170, 32));
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(38, 38, 38)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                    .addComponent(correta, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(errada1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(errada2, javax.swing.GroupLayout.DEFAULT_SIZE, 390, Short.MAX_VALUE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 18, Short.MAX_VALUE)
-                .addComponent(jLabel3)
-                .addContainerGap())
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(98, 98, 98)
-                                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 0, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 218, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(correta, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(errada1, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(errada2, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(21, 21, 21))
-        );
+        jLabel5.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel5.setText("          Quem leva a cura da mordida de lobisomem para o Damon?");
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 240, 513, 34));
+
+        btnStefan.setBackground(new java.awt.Color(255, 0, 255));
+        btnStefan.setText("Stefan");
+        btnStefan.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnStefanActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btnStefan, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 370, 170, 32));
+
+        damon.setIcon(new javax.swing.ImageIcon("C:\\Users\\dudan\\Pictures\\Saved Pictures\\ade2140c0193cddffc44ad3ec944d00d.gif")); // NOI18N
+        damon.setText("jLabel7");
+        getContentPane().add(damon, new org.netbeans.lib.awtextra.AbsoluteConstraints(33, 11, 496, 197));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -212,7 +226,7 @@ public class Tela extends javax.swing.JFrame {
     private void btnRespostaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRespostaActionPerformed
         // TODO add your handling code here:
         dispose();
-        new  Tela1().setVisible(true);
+        new  Tela3().setVisible(true);
         
     }//GEN-LAST:event_btnRespostaActionPerformed
 
@@ -221,9 +235,9 @@ public class Tela extends javax.swing.JFrame {
         
     }//GEN-LAST:event_jRadioButton2ActionPerformed
 
-    private void errada1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_errada1ActionPerformed
+    private void btnElenaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnElenaActionPerformed
        
-        errada1.setBackground(Color.red);
+        btnElena.setBackground(Color.red);
         new Thread(){
             public void run(){
                 try{
@@ -232,17 +246,17 @@ public class Tela extends javax.swing.JFrame {
                 e.getMessage();
             }
                 dispose();
-            new Tela1().setVisible(true);
+            new Tela3().setVisible(true);
             
             }
         }.start();
 
 
-    }//GEN-LAST:event_errada1ActionPerformed
+    }//GEN-LAST:event_btnElenaActionPerformed
 
-    private void corretaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_corretaActionPerformed
+    private void btnKatherineActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnKatherineActionPerformed
 
-        correta.setBackground(Color.green);
+        btnKatherine.setBackground(Color.green);
         new Thread(){
             public void run(){
                 try{
@@ -251,16 +265,16 @@ public class Tela extends javax.swing.JFrame {
                 e.getMessage();
             }
                 dispose();
-            new Tela1().setVisible(true);
+            new Tela3().setVisible(true);
             
             }
         }.start();
 
-    }//GEN-LAST:event_corretaActionPerformed
+    }//GEN-LAST:event_btnKatherineActionPerformed
 
-    private void errada2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_errada2ActionPerformed
+    private void btnBonnieActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBonnieActionPerformed
 
- errada2.setBackground(Color.red);
+ btnBonnie.setBackground(Color.red);
         new Thread(){
             public void run(){
                 try{
@@ -269,19 +283,55 @@ public class Tela extends javax.swing.JFrame {
                 e.getMessage();
             }
                 dispose();
-            new Tela1().setVisible(true);
+            new Tela3().setVisible(true);
             
             }
         }.start();
         // TODO add your handling code here:
         
-               errada2.setBackground(Color.green);
+               btnBonnie.setBackground(Color.red);
 
-    }//GEN-LAST:event_errada2ActionPerformed
+    }//GEN-LAST:event_btnBonnieActionPerformed
+
+    private void btnStefanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnStefanActionPerformed
+        // TODO add your handling code here:
+        
+        btnStefan.setBackground(Color.red);
+        new Thread(){
+            public void run(){
+                try{
+                Thread.sleep(1000);
+            }catch(Exception e){
+                e.getMessage();
+            }
+                dispose();
+            new Tela3().setVisible(true);
+            
+            }
+        }.start();
+    }//GEN-LAST:event_btnStefanActionPerformed
+
+    private void errada3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_errada3ActionPerformed
+        // TODO add your handling code here:
+         
+        errada3.setBackground(Color.red);
+        new Thread(){
+            public void run(){
+                try{
+                Thread.sleep(1000);
+            }catch(Exception e){
+                e.getMessage();
+            }
+                dispose();
+            new Tela3().setVisible(true);
+            
+            }
+        }.start();
+    }//GEN-LAST:event_errada3ActionPerformed
 
   
     public static void main(String args[]) {
-       new Tela1().setVisible(true);
+       new Tela3().setVisible(true);
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
          * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
@@ -313,10 +363,13 @@ public class Tela extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnBonnie;
+    private javax.swing.JButton btnElena;
+    private javax.swing.JButton btnKatherine;
     private javax.swing.JButton btnResposta;
-    private javax.swing.JButton correta;
-    private javax.swing.JButton errada1;
-    private javax.swing.JButton errada2;
+    private javax.swing.JButton btnStefan;
+    private javax.swing.JLabel damon;
+    private javax.swing.JButton errada3;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton11;
     private javax.swing.JButton jButton13;
@@ -333,7 +386,13 @@ public class Tela extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JMenu jMenu1;
+    private javax.swing.JMenu jMenu2;
+    private javax.swing.JMenu jMenu3;
+    private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JOptionPane jOptionPane1;
     private javax.swing.JProgressBar jProgressBar1;
     private javax.swing.JRadioButton jRadioButton1;
