@@ -91,18 +91,16 @@ public class Tela8 extends javax.swing.JFrame {
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addContainerGap()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(errada26, javax.swing.GroupLayout.PREFERRED_SIZE, 198, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(certa8, javax.swing.GroupLayout.PREFERRED_SIZE, 196, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(errada25, javax.swing.GroupLayout.PREFERRED_SIZE, 196, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(errada24, javax.swing.GroupLayout.PREFERRED_SIZE, 196, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)))
+                    .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
                 .addContainerGap())
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(81, 81, 81)
@@ -152,7 +150,7 @@ public class Tela8 extends javax.swing.JFrame {
             }catch(Exception e){
                 e.getMessage();
             }
-       new Tela5().setVisible(true);
+       new Tela9().setVisible(true);
        dispose();
             }
         }.start();
@@ -170,7 +168,7 @@ public class Tela8 extends javax.swing.JFrame {
             }catch(Exception e){
                 e.getMessage();
             }
-       new Tela5().setVisible(true);
+       new Tela9().setVisible(true);
        dispose();
             }
         }.start();
@@ -179,7 +177,7 @@ public class Tela8 extends javax.swing.JFrame {
 
     private void errada26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_errada26ActionPerformed
         // TODO add your handling code here:
-         errada26.setBackground(Color.RED);
+         errada26.setBackground(Color.red);
         
         new Thread(){
             public void run(){
@@ -188,7 +186,7 @@ public class Tela8 extends javax.swing.JFrame {
             }catch(Exception e){
                 e.getMessage();
             }
-       new Tela5().setVisible(true);
+       new Tela9().setVisible(true);
        dispose();
             }
         }.start();
@@ -197,7 +195,7 @@ public class Tela8 extends javax.swing.JFrame {
 
     private void certa8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_certa8ActionPerformed
         // TODO add your handling code here:
-         certa8.setBackground(Color.RED);
+         certa8.setBackground(Color.green);
         
         new Thread(){
             public void run(){
@@ -206,7 +204,7 @@ public class Tela8 extends javax.swing.JFrame {
             }catch(Exception e){
                 e.getMessage();
             }
-       new Tela5().setVisible(true);
+       new Tela9().setVisible(true);
        dispose();
             }
         }.start();
@@ -243,7 +241,7 @@ public class Tela8 extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Tela8().setVisible(true);
+                new Tela9().setVisible(true);
             }
         });
     }
