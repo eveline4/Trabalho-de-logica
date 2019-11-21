@@ -18,6 +18,7 @@ public class Tela4 extends javax.swing.JFrame {
      */
     public Tela4() {
         initComponents();
+        setLocationRelativeTo(this);
     }
 
     /**
@@ -31,17 +32,65 @@ public class Tela4 extends javax.swing.JFrame {
 
         jButton2 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
-        jButton1 = new javax.swing.JButton();
         btnCorreta4 = new javax.swing.JButton();
         jButton5 = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jPanel1 = new javax.swing.JPanel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
+        jLabel13 = new javax.swing.JLabel();
+        jLabel16 = new javax.swing.JLabel();
+        jButton3 = new javax.swing.JButton();
+        jLabel20 = new javax.swing.JLabel();
+        jLabel21 = new javax.swing.JLabel();
+        jLabel23 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
+        jLabel18 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        jLabel24 = new javax.swing.JLabel();
+        jLabel25 = new javax.swing.JLabel();
+        jLabel26 = new javax.swing.JLabel();
+        jLabel27 = new javax.swing.JLabel();
+        jLabel28 = new javax.swing.JLabel();
+        jLabel29 = new javax.swing.JLabel();
+        jLabel31 = new javax.swing.JLabel();
+        jPanel2 = new javax.swing.JPanel();
+        jLabel17 = new javax.swing.JLabel();
+        errada9 = new javax.swing.JButton();
+        errada8 = new javax.swing.JButton();
+        certa = new javax.swing.JButton();
+        jLabel19 = new javax.swing.JLabel();
+        errada10 = new javax.swing.JButton();
+        jLabel22 = new javax.swing.JLabel();
+        jLabel30 = new javax.swing.JLabel();
+        jLabel32 = new javax.swing.JLabel();
+        jLabel33 = new javax.swing.JLabel();
+        jButton7 = new javax.swing.JButton();
+        jLabel35 = new javax.swing.JLabel();
+        jLabel36 = new javax.swing.JLabel();
+        jLabel37 = new javax.swing.JLabel();
+        jLabel38 = new javax.swing.JLabel();
+        jPanel3 = new javax.swing.JPanel();
+        Errada11 = new javax.swing.JButton();
+        certa3 = new javax.swing.JButton();
+        errada12 = new javax.swing.JButton();
+        errada13 = new javax.swing.JButton();
+        jLabel34 = new javax.swing.JLabel();
+        jLabel39 = new javax.swing.JLabel();
 
         jButton2.setText("jButton2");
 
         jButton4.setText("jButton1");
-
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-
-        jButton1.setText("jButton1");
 
         btnCorreta4.setText("jButton1");
         btnCorreta4.addActionListener(new java.awt.event.ActionListener() {
@@ -52,28 +101,330 @@ public class Tela4 extends javax.swing.JFrame {
 
         jButton5.setText("jButton1");
 
+        jButton1.setText("jButton1");
+
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\dudan\\Desktop\\imagens do trabalho\\images (7).jpg")); // NOI18N
+        jLabel1.setText("jLabel1");
+
+        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\dudan\\Desktop\\imagens do trabalho\\images (8).jpg")); // NOI18N
+        jLabel2.setText("jLabel2");
+
+        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\dudan\\Desktop\\imagens do trabalho\\images (9).jpg")); // NOI18N
+        jLabel4.setText("jLabel4");
+
+        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Users\\dudan\\Desktop\\imagens do trabalho\\images (9).jpg")); // NOI18N
+        jLabel5.setText("jLabel5");
+
+        jPanel1.setBackground(new java.awt.Color(0, 0, 0));
+
+        jLabel3.setText("jLabel3");
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(249, 249, 249)
+                .addComponent(jLabel3)
+                .addContainerGap(339, Short.MAX_VALUE))
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(711, 711, 711)
+                .addComponent(jLabel3)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        jLabel6.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel6.setText("jLabel6");
+
+        jLabel7.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel7.setText("jLabel7");
+
+        jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Users\\dudan\\Desktop\\imagens do trabalho\\images (10).jpg")); // NOI18N
+        jLabel8.setText("jLabel8");
+
+        jLabel9.setIcon(new javax.swing.ImageIcon("C:\\Users\\dudan\\Desktop\\imagens do trabalho\\images (11).jpg")); // NOI18N
+        jLabel9.setText("jLabel9");
+
+        jLabel11.setText("jLabel11");
+
+        jLabel10.setIcon(new javax.swing.ImageIcon("C:\\Users\\dudan\\Desktop\\imagens do trabalho\\images (12).jpg")); // NOI18N
+        jLabel10.setText("jLabel10");
+
+        jLabel12.setIcon(new javax.swing.ImageIcon("C:\\Users\\dudan\\Desktop\\imagens do trabalho\\images (13).jpg")); // NOI18N
+        jLabel12.setText("jLabel12");
+
+        jLabel13.setIcon(new javax.swing.ImageIcon("C:\\Users\\dudan\\Desktop\\imagens do trabalho\\images (11).jpg")); // NOI18N
+        jLabel13.setText("jLabel13");
+
+        jLabel16.setIcon(new javax.swing.ImageIcon("C:\\Users\\dudan\\Desktop\\imagens do trabalho\\images (13).jpg")); // NOI18N
+        jLabel16.setText("jLabel16");
+
+        jButton3.setText("Polly Cooper");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
+
+        jLabel20.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel20.setText("Polly Cooper");
+
+        jLabel21.setText("jLabel21");
+
+        jLabel23.setText("jLabel23");
+
+        jLabel15.setText("jLabel15");
+
+        jLabel18.setText("jLabel18");
+
+        jLabel14.setText("jLabel14");
+
+        jLabel24.setIcon(new javax.swing.ImageIcon("C:\\Users\\dudan\\Desktop\\imagens do trabalho\\images (14).jpg")); // NOI18N
+        jLabel24.setText("jLabel24");
+
+        jLabel25.setIcon(new javax.swing.ImageIcon("C:\\Users\\dudan\\Desktop\\imagens do trabalho\\images.jpg")); // NOI18N
+        jLabel25.setText("jLabel25");
+
+        jLabel26.setIcon(new javax.swing.ImageIcon("C:\\Users\\dudan\\Desktop\\imagens do trabalho\\images (16).jpg")); // NOI18N
+        jLabel26.setText("jLabel26");
+
+        jLabel27.setIcon(new javax.swing.ImageIcon("C:\\Users\\dudan\\Desktop\\imagens do trabalho\\images.jpg")); // NOI18N
+        jLabel27.setText("jLabel27");
+
+        jLabel28.setIcon(new javax.swing.ImageIcon("C:\\Users\\dudan\\Desktop\\imagens do trabalho\\images (15).jpg")); // NOI18N
+        jLabel28.setText("jLabel28");
+
+        jLabel29.setIcon(new javax.swing.ImageIcon("C:\\Users\\dudan\\Desktop\\imagens do trabalho\\images (13).jpg")); // NOI18N
+        jLabel29.setText("jLabel29");
+
+        jLabel31.setIcon(new javax.swing.ImageIcon("C:\\Users\\dudan\\Desktop\\imagens do trabalho\\images (21).jpg")); // NOI18N
+        jLabel31.setText("jLabel31");
+
+        jPanel2.setBackground(new java.awt.Color(0, 0, 0));
+
+        jLabel17.setText("jLabel17");
+
+        errada9.setBackground(new java.awt.Color(204, 0, 204));
+        errada9.setText("FP Jones");
+        errada9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                errada9ActionPerformed(evt);
+            }
+        });
+
+        errada8.setBackground(new java.awt.Color(255, 0, 255));
+        errada8.setText("Cheryl Blossom");
+        errada8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                errada8ActionPerformed(evt);
+            }
+        });
+
+        certa.setBackground(new java.awt.Color(255, 0, 255));
+        certa.setText("Clifford Blossom");
+        certa.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                certaActionPerformed(evt);
+            }
+        });
+
+        jLabel19.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        jLabel19.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel19.setText("                  Quem matou Jason Blossom?");
+
+        errada10.setBackground(new java.awt.Color(204, 0, 204));
+        errada10.setText("Polly Cooper");
+        errada10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                errada10ActionPerformed(evt);
+            }
+        });
+
+        jLabel22.setText("jLabel22");
+
+        jLabel30.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        jLabel30.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel30.setText("Quem matou Jason Blossom?");
+
+        jLabel32.setIcon(new javax.swing.ImageIcon("C:\\Users\\dudan\\Desktop\\imagens do trabalho\\enhanced-17133-1520632815-1.jpg")); // NOI18N
+        jLabel32.setText("jLabel32");
+
+        jLabel33.setText("jLabel33");
+
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addComponent(jLabel32, javax.swing.GroupLayout.PREFERRED_SIZE, 578, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(certa, javax.swing.GroupLayout.PREFERRED_SIZE, 165, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel33))
+                        .addGap(1365, 1365, 1365)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGap(48, 48, 48)
+                                .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, 403, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jLabel30, javax.swing.GroupLayout.PREFERRED_SIZE, 345, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(334, 334, 334)
+                        .addComponent(jLabel22, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(541, 541, 541)
+                        .addComponent(jLabel17))
+                    .addComponent(errada10, javax.swing.GroupLayout.PREFERRED_SIZE, 165, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(errada8, javax.swing.GroupLayout.PREFERRED_SIZE, 165, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(errada9, javax.swing.GroupLayout.PREFERRED_SIZE, 165, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGap(131, 131, 131)
+                .addComponent(jLabel22, javax.swing.GroupLayout.PREFERRED_SIZE, 108, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGap(38, 38, 38)
+                        .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 142, Short.MAX_VALUE)
+                        .addComponent(jLabel30, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(147, 147, 147))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGap(249, 249, 249)
+                                .addComponent(jLabel17)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jLabel33)
+                                .addGap(42, 42, 42)))
+                        .addComponent(errada9, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(errada8, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(certa, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addComponent(jLabel32, javax.swing.GroupLayout.PREFERRED_SIZE, 196, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                .addComponent(errada10, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+
+        jButton7.setText("jButton7");
+        jButton7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton7ActionPerformed(evt);
+            }
+        });
+
+        jLabel35.setIcon(new javax.swing.ImageIcon("C:\\Users\\dudan\\Desktop\\imagens do trabalho\\images (22).jpg")); // NOI18N
+        jLabel35.setText("jLabel35");
+
+        jLabel36.setIcon(new javax.swing.ImageIcon("C:\\Users\\dudan\\Desktop\\imagens do trabalho\\images (23).jpg")); // NOI18N
+        jLabel36.setText("jLabel36");
+
+        jLabel37.setIcon(new javax.swing.ImageIcon("C:\\Users\\dudan\\Desktop\\imagens do trabalho\\images (22).jpg")); // NOI18N
+        jLabel37.setText("jLabel37");
+
+        jLabel38.setIcon(new javax.swing.ImageIcon("C:\\Users\\dudan\\Desktop\\imagens do trabalho\\images (24).jpg")); // NOI18N
+        jLabel38.setText("jLabel38");
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        jPanel3.setBackground(new java.awt.Color(0, 0, 0));
+
+        Errada11.setBackground(new java.awt.Color(255, 153, 153));
+        Errada11.setText("Hiram Lodger");
+        Errada11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Errada11ActionPerformed(evt);
+            }
+        });
+
+        certa3.setBackground(new java.awt.Color(255, 153, 153));
+        certa3.setText("Hal Cooper");
+        certa3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                certa3ActionPerformed(evt);
+            }
+        });
+
+        errada12.setBackground(new java.awt.Color(255, 153, 153));
+        errada12.setText("Tallboy");
+        errada12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                errada12ActionPerformed(evt);
+            }
+        });
+
+        errada13.setBackground(new java.awt.Color(255, 153, 153));
+        errada13.setText("Fred Andrews");
+        errada13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                errada13ActionPerformed(evt);
+            }
+        });
+
+        jLabel34.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        jLabel34.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel34.setText("   Na segunda temporada, quem e o Capuz preto?");
+
+        jLabel39.setIcon(new javax.swing.ImageIcon("C:\\Users\\dudan\\Desktop\\imagens do trabalho\\bh2.jpg")); // NOI18N
+        jLabel39.setText("jLabel39");
+
+        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
+        jPanel3.setLayout(jPanel3Layout);
+        jPanel3Layout.setHorizontalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jLabel39, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(Errada11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(certa3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(errada12, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(errada13, javax.swing.GroupLayout.DEFAULT_SIZE, 198, Short.MAX_VALUE)))
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addGap(45, 45, 45)
+                        .addComponent(jLabel34, javax.swing.GroupLayout.PREFERRED_SIZE, 434, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(54, Short.MAX_VALUE))
+        );
+        jPanel3Layout.setVerticalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
+                .addComponent(jLabel39, javax.swing.GroupLayout.PREFERRED_SIZE, 252, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jLabel34, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(Errada11, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(certa3, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(7, 7, 7)
+                .addComponent(errada12, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(errada13, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(27, 27, 27)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btnCorreta4, javax.swing.GroupLayout.PREFERRED_SIZE, 319, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 319, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 319, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(54, Short.MAX_VALUE))
+            .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(168, 168, 168)
-                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(btnCorreta4, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 7, Short.MAX_VALUE)
-                .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
+            .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
@@ -90,11 +441,155 @@ public class Tela4 extends javax.swing.JFrame {
             }catch(Exception e){
                 e.getMessage();
             }
-       new Tela().setVisible(true);
+       new Tela5().setVisible(true);
        dispose();
             }
         }.start();
     }//GEN-LAST:event_btnCorreta4ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void errada8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_errada8ActionPerformed
+        // TODO add your handling code here:
+           errada8.setBackground(Color.RED);
+        
+        new Thread(){
+            public void run(){
+                try{
+                Thread.sleep(1000);
+            }catch(Exception e){
+                e.getMessage();
+            }
+       new Tela5().setVisible(true);
+       dispose();
+            }
+        }.start();
+    }//GEN-LAST:event_errada8ActionPerformed
+
+    private void certaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_certaActionPerformed
+        // TODO add your handling code here:
+           certa.setBackground(Color.green);
+        
+        new Thread(){
+            public void run(){
+                try{
+                Thread.sleep(1000);
+            }catch(Exception e){
+                e.getMessage();
+            }
+       new Tela5().setVisible(true);
+       dispose();
+            }
+        }.start();
+    }//GEN-LAST:event_certaActionPerformed
+
+    private void errada9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_errada9ActionPerformed
+        // TODO add your handling code here:
+           errada9.setBackground(Color.RED);
+        
+        new Thread(){
+            public void run(){
+                try{
+                Thread.sleep(1000);
+            }catch(Exception e){
+                e.getMessage();
+            }
+       new Tela5().setVisible(true);
+       dispose();
+            }
+        }.start();
+    }//GEN-LAST:event_errada9ActionPerformed
+
+    private void errada10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_errada10ActionPerformed
+        // TODO add your handling code here:
+           errada10.setBackground(Color.RED);
+        
+        new Thread(){
+            public void run(){
+                try{
+                Thread.sleep(1000);
+            }catch(Exception e){
+                e.getMessage();
+            }
+       new Tela5().setVisible(true);
+       dispose();
+            }
+        }.start();
+    }//GEN-LAST:event_errada10ActionPerformed
+
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton7ActionPerformed
+
+    private void certa3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_certa3ActionPerformed
+        // TODO add your handling code here:
+         certa3.setBackground(Color.green);
+        
+        new Thread(){
+            public void run(){
+                try{
+                Thread.sleep(1000);
+            }catch(Exception e){
+                e.getMessage();
+            }
+       new Tela5().setVisible(true);
+       dispose();
+            }
+        }.start();
+    }//GEN-LAST:event_certa3ActionPerformed
+
+    private void Errada11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Errada11ActionPerformed
+        // TODO add your handling code here:
+         Errada11.setBackground(Color.RED);
+        
+        new Thread(){
+            public void run(){
+                try{
+                Thread.sleep(1000);
+            }catch(Exception e){
+                e.getMessage();
+            }
+       new Tela5().setVisible(true);
+       dispose();
+            }
+        }.start();
+    }//GEN-LAST:event_Errada11ActionPerformed
+
+    private void errada12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_errada12ActionPerformed
+        // TODO add your handling code here:
+         errada12.setBackground(Color.RED);
+        
+        new Thread(){
+            public void run(){
+                try{
+                Thread.sleep(1000);
+            }catch(Exception e){
+                e.getMessage();
+            }
+       new Tela5().setVisible(true);
+       dispose();
+            }
+        }.start();
+    }//GEN-LAST:event_errada12ActionPerformed
+
+    private void errada13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_errada13ActionPerformed
+        // TODO add your handling code here:
+         errada13.setBackground(Color.RED);
+        
+        new Thread(){
+            public void run(){
+                try{
+                Thread.sleep(1000);
+            }catch(Exception e){
+                e.getMessage();
+            }
+       new Tela5().setVisible(true);
+       dispose();
+            }
+        }.start();
+    }//GEN-LAST:event_errada13ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -126,16 +621,68 @@ public class Tela4 extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Tela4().setVisible(true);
+                new Tela5().setVisible(true);
             }
         });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton Errada11;
     private javax.swing.JButton btnCorreta4;
+    private javax.swing.JButton certa;
+    private javax.swing.JButton certa3;
+    private javax.swing.JButton errada10;
+    private javax.swing.JButton errada12;
+    private javax.swing.JButton errada13;
+    private javax.swing.JButton errada8;
+    private javax.swing.JButton errada9;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
+    private javax.swing.JButton jButton7;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel23;
+    private javax.swing.JLabel jLabel24;
+    private javax.swing.JLabel jLabel25;
+    private javax.swing.JLabel jLabel26;
+    private javax.swing.JLabel jLabel27;
+    private javax.swing.JLabel jLabel28;
+    private javax.swing.JLabel jLabel29;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel30;
+    private javax.swing.JLabel jLabel31;
+    private javax.swing.JLabel jLabel32;
+    private javax.swing.JLabel jLabel33;
+    private javax.swing.JLabel jLabel34;
+    private javax.swing.JLabel jLabel35;
+    private javax.swing.JLabel jLabel36;
+    private javax.swing.JLabel jLabel37;
+    private javax.swing.JLabel jLabel38;
+    private javax.swing.JLabel jLabel39;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel3;
     // End of variables declaration//GEN-END:variables
 }
